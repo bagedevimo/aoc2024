@@ -34,6 +34,7 @@ executable day1
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , split >=0.2.5
   default-language: Haskell2010
 
 executable day2
@@ -47,6 +48,7 @@ executable day2
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , split >=0.2.5
   default-language: Haskell2010
 
 executable day3
@@ -60,4 +62,33 @@ executable day3
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , split >=0.2.5
+  default-language: Haskell2010
+
+executable day4
+  main-is: day4.hs
+  other-modules:
+      Paths_aoc2024
+  autogen-modules:
+      Paths_aoc2024
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , split >=0.2.5
+  default-language: Haskell2010
+
+executable day5
+  main-is: day5.hs
+  other-modules:
+      Paths_aoc2024
+  autogen-modules:
+      Paths_aoc2024
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , split >=0.2.5
   default-language: Haskell2010
